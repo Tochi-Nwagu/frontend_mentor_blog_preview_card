@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Tochi-Nwagu/frontend_mentor_blog_preview_card)
+- Live Site URL: [Add live site URL here](https://tochi-nwagu.github.io/frontend_mentor_blog_preview_card/)
 
 ## My process
 
@@ -114,17 +114,17 @@ Additionally, I would like to further explore CSS positioning and layout techniq
 
 ### Useful resources
 
-- [Example resource 1](https://css-tricks.com/) - This helped me with everything flexbox. I really liked using it as it broke down everything concerning CSS.
+- [resource 1](https://css-tricks.com/) - This helped me with everything flexbox. I really liked using it as it broke down everything concerning CSS.
 
-- [Example resource 2](https://css-tricks.com/almanac/rules/f/font-face/) - This is an amazing article which helped me finally understand how to implement adding fonts from a downloaded/ included folder. I'd recommend it to anyone still learning this concept.
+- [resource 2](https://css-tricks.com/almanac/rules/f/font-face/) - This is an amazing article which helped me finally understand how to implement adding fonts from a downloaded/ included folder. I'd recommend it to anyone still learning this concept.
 
-- [Example resource 3](https://stackoverflow.com/questions/35978790/bigger-fonts-on-smaller-screens-without-media-queries-or-javascript) - This is an amazing resource that helped me understand how I can to reduce font size for smaller screens without using media queries. And (https://clamp.font-size.app/) was the website i used to convert it.
+- [resource 3](https://stackoverflow.com/questions/35978790/bigger-fonts-on-smaller-screens-without-media-queries-or-javascript) - This is an amazing resource that helped me understand how I can to reduce font size for smaller screens without using media queries. And (https://clamp.font-size.app/) was the website i used to convert it.
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Tochi Nwagu](https://tochi-nwagu.github.io/frontend_mentor_blog_preview_card/)
+- Frontend Mentor - [@Tochi-Nwagu](https://www.frontendmentor.io/profile/Tochi-Nwagu)
 
 
 
