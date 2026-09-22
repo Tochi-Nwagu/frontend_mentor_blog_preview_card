@@ -16,7 +16,7 @@ This is a solution to the Blog preview card challenge on Frontend Mentor(https:/
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Tochi-Nwagu/frontend_mentor_blog_preview_card)
-- Live Site URL: [Add live site URL here](https://tochi-nwagu.github.io/frontend_mentor_blog_preview_card/)
+- Link to github repository: (https://github.com/Tochi-Nwagu/frontend_mentor_blog_preview_card)
+- Link to hosted site on github pages: (https://tochi-nwagu.github.io/frontend_mentor_blog_preview_card/)
 
 ## My process
 
@@ -49,21 +49,21 @@ Users should be able to:
 
 ### What I learned
 
-Most of the concepts used in this project were not entirely new to me, but building the card helped me practise and reinforce them. The main new thing I learned was how to add custom fonts locally using @font-face.
+Most of the concepts used in this project were not entirely new to me, but building the card helped me practise and reinforce them. The main new thing I learned was how to add custom fonts locally using @font-face CSS rule for adding custom fonts.
 
 During the build, I also:
 
-Practised using positioning based on feedback from my previous QR Code challenge.
+Practised using positioning to ensure that my footer is placed at the end of the webpage  based on feedback from my previous QR Code challenge.
 Continued improving my approach to responsive design by using relative sizing instead of relying solely on fixed pixel values.
 Revisited the box-shadow property and became more comfortable recreating shadows from a design mock-up.
 And how to reduce font size for smaller screens without using media queries.
 
 
 ```css
-for addin already downloaded fonts from the folder
+for adding already downloaded fonts from the folder using the @font-face CSS Rule as shown in the code snippet below.
 @font-face {
   font-family: 'Figtree';
-  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('ttf');
   font-weight: 800;
   font-style: normal;
 }
