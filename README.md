@@ -63,7 +63,7 @@ And how to reduce font size for smaller screens without using media queries.
 for adding already downloaded fonts from the folder using the @font-face CSS Rule as shown in the code snippet below.
 @font-face {
   font-family: 'Figtree';
-  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('ttf');
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }

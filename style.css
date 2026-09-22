@@ -4,16 +4,17 @@
   box-sizing: border-box;
 }
 
+/* Importing fonts from the folder */
 @font-face {
   font-family: 'Figtree';
-  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('ttf');
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Figtree';
-  src: url('./assets/fonts/static/Figtree-Medium.ttf') format('ttf');
+  src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -23,6 +24,7 @@ body {
   background-color: hsl(47, 88%, 63%);
 }
 
+/* Container */
 .container {
   width: 90%;
   max-width: 384px;
@@ -31,6 +33,7 @@ body {
   margin-bottom: 24px;
 }
 
+/* Card */
 .cards {
   background-color: hsl(0, 0%, 100%);
   padding: 24px;
@@ -39,6 +42,7 @@ body {
   max-width: 100%;
 }
 
+/* Content of the Card */
 .articleImg {
   width: 100%;
   height: auto;
@@ -80,6 +84,7 @@ body {
   color: hsl(0, 0%, 42%);
 }
 
+/* Author */
 .author {
   display: flex;
   flex-direction: row;
@@ -99,6 +104,7 @@ body {
   color: hsl(0, 0%, 7%);
 }
 
+/* Footer */
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
@@ -112,3 +118,22 @@ body {
   text-decoration: none;
 }
 
+/* Increases the font size when we hover on the link */
+.attribution a:hover {
+  color: hsl(0, 0%, 42%);
+  font-size: 18px;
+}
+
+.attribution a:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 3px;
+}
+
+/* Media Query */
+
+@media (max-width: 375px){
+  /* hide the footer on smaller sceen 375px */
+  .attribution{
+    display: none;
+  }
+}
