@@ -121,7 +121,6 @@ body {
 /* Increases the font size when we hover on the link */
 .attribution a:hover {
   color: hsl(0, 0%, 42%);
-  font-size: 18px;
 }
 
 .attribution a:focus-visible {
